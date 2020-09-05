@@ -1,0 +1,19 @@
+.clu-text-modiule{
+	width: 100%;
+}
+.ln-sec-one{
+
+}
+.ln-sec-one-hedding{
+	position: relative;
+}
+.ln-sec-one-top-hdng{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	text-align: center;
+	border-bottom: 4px solid #000;
+}
