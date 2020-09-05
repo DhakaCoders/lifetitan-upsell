@@ -1,0 +1,43 @@
+header.fl-hdr {
+    background: #fff;
+    -ms-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -ms-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .16);
+    -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .16);
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .16);
+    position: relative;
+    z-index: 5
+} 
+.header-innr {
+    background: #fff;
+    padding: 20px 0;
+}
+.hdr-left,
+.hdr-rgt {
+    width: 50%;
+    float: left
+}
+.hdr-left {
+    padding-right: 30px
+}
+.hdr-rgt {
+    text-align: right;
+    padding-left: 25px;
+}
+.hdr-logo{
+    display: inline-block;
+    vertical-align: baseline;
+    max-width: 221px;
+}
+.secure-img{
+      display: inline-block;
+    vertical-align: baseline;
+  max-width: 223px;
+}
+.header .secure-img {
+    max-width: 225px
+}
+.fl-hdr img{
+    width: 100%
+}
