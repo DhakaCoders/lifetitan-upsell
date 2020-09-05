@@ -162,6 +162,28 @@ p u{
 p u a{
   color: #1472dc;
 }
+.ctu ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-left: 18px;
+}
+.ctu ul li{
+  padding: 5px 0 20px 38px;
+  position: relative;
+  line-height: 28px;
+}
+.ctu ul li:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    background: url(assets/images/list-icon.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 24px;
+    height: 24px;
+}
 .plr-30 {
   padding-left: 30px!important;
   padding-right: 30px!important
