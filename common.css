@@ -1,13 +1,4 @@
 @font-face {
-  font-family: 'OpenSansLight';
-  src: url('assets/fonts/OpenSansLight/OpenSansLight.woff2') format('woff2'),
-    url('assets/fonts/OpenSansLight/OpenSansLight.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
   font-family: 'LatoRegular';
   src: url('assets/fonts/LatoRegular/LatoRegular.woff2') format('woff2'),
     url('assets/fonts/LatoRegular/LatoRegular.woff') format('woff');
@@ -16,48 +7,13 @@
   font-display: swap;
 }
 
-@font-face {
-  font-family: 'LatoLightItalic';
-  src: url('assets/fonts/LatoLightItalic/LatoLightItalic.woff2') format('woff2'),
-    url('assets/fonts/LatoLightItalic/LatoLightItalic.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
 
-@font-face {
-  font-family: 'LatoLight';
-  src: url('assets/fonts/LatoLight/LatoLight.woff2') format('woff2'),
-    url('assets/fonts/LatoLight/LatoLight.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
 
 
 @font-face {
   font-family: 'LatoBold';
   src: url('assets/fonts/LatoBold/LatoBold.woff2') format('woff2'),
     url('assets/fonts/LatoBold/LatoBold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'LatoSemibold';
-  src: url('assets/fonts/LatoSemibold/LatoSemibold.woff2') format('woff2'),
-    url('assets/fonts/LatoSemibold/LatoSemibold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-
-@font-face {
-  font-family: 'LatoSemiBoldItalic';
-  src: url('assets/fonts/LatoSemiBoldItalic/LatoSemiBoldItalic.woff2') format('woff2'),
-    url('assets/fonts/LatoSemiBoldItalic/LatoSemiBoldItalic.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -74,9 +30,27 @@
 }
 
 @font-face {
+  font-family: 'CalisMTBold';
+  src: url('assets/fonts/CalisMTBold/CalisMTBold.woff2') format('woff2'),
+    url('assets/fonts/CalisMTBold/CalisMTBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'SupriaSans-Regular';
   src: url('assets/fonts/SupriaSans-Regular/SupriaSans-Regular.woff2') format('woff2'),
     url('assets/fonts/SupriaSans-Regular/SupriaSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SupriaSans-Bold';
+  src: url('assets/fonts/SupriaSans-Bold/SupriaSans-Bold.woff2') format('woff2'),
+    url('assets/fonts/SupriaSans-Bold/SupriaSans-Bold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -91,10 +65,23 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('assets/fonts/Montserrat-Regular/Montserrat-Regular.woff2') format('woff2'),
+    url('assets/fonts/Montserrat-Regular/Montserrat-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
-
-
-
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url('assets/fonts/Montserrat-Medium/Montserrat-Medium.woff2') format('woff2'),
+    url('assets/fonts/Montserrat-Medium/Montserrat-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 
 *,*:focus,.btn,.btn:focus {
@@ -114,7 +101,7 @@ a,a:hover,a:focus,button:hover,button:focus {
 }
 body {
   background-color: #fff;
-  color: #000;
+  color: #121213;
   font-size: 24px;
   line-height: 1.2;
   font-family: 'LatoRegular';
@@ -141,6 +128,12 @@ img {
   max-width: 1200px;
   width: 100%;
 }
+.fl-page-bdy-controller{
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+}
 .hide-md {
   display: block!important
 }
@@ -163,6 +156,12 @@ img {
 p { margin: 0; margin-bottom: 30px; }
 a { word-wrap: break-word } 
 strong { font-weight:normal }
+p u{
+  text-decoration: underline;
+}
+p u a{
+  color: #1472dc;
+}
 .plr-30 {
   padding-left: 30px!important;
   padding-right: 30px!important
@@ -200,6 +199,8 @@ h4 {
 .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
   margin-top: 0;
   line-height: 1.2;
+  font-family: 'CalisMTBold';
+  color: #00553b;
 } 
 
 @media(max-width: 1199px){
