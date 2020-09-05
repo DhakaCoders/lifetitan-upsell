@@ -133,6 +133,9 @@ img {
   width: 100%;
   margin: 0 auto;
   background: #fff;
+  -webkit-box-shadow: 0 5px 12px 0 rgba(180,179,179,1);
+  -moz-box-shadow: 0 5px 12px 0 rgba(180,179,179,1);
+  box-shadow: 0 5px 12px 0 rgba(180,179,179,1);
 }
 .hide-md {
   display: block!important
@@ -189,6 +192,11 @@ p u a{
     background-size: 100% auto;
     width: 24px;
     height: 24px;
+}
+.inline-bg{
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    background-position: center center!important;
 }
 .plr-30 {
   padding-left: 30px!important;
