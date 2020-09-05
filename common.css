@@ -162,6 +162,12 @@ p u{
 p u a{
   color: #1472dc;
 }
+.text-green{
+  color: #00553b;
+}
+.text-white{
+  color: #fff;
+}
 .ctu ul{
   list-style: none;
   padding: 0;
@@ -222,7 +228,6 @@ h4 {
   margin-top: 0;
   line-height: 1.2;
   font-family: 'CalisMTBold';
-  color: #00553b;
 } 
 
 @media(max-width: 1199px){
