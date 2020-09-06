@@ -272,19 +272,16 @@ h4 {
       display: block!important;
     }
     h1{
-      font-size: 40px;
+      font-size: 52px;
     }
     h2{
-      font-size: 35px;
+      font-size: 44px;
     }
     h3 {
-      font-size: 26px;
+      font-size: 32px;
     }
     h4 {
-      font-size: 20px;
-    }
-    p br{
-      display: none;
+      font-size: 30px;
     }
 }
 @media(max-width: 991px){
@@ -299,21 +296,46 @@ h4 {
     }
     .pull-left{
       float: initial!important;
+    body {
+        font-size: 22px;
+    }
+    p{
+       margin-bottom: 25px;
     }
     h1{
-      font-size: 35px;
+      font-size: 45px;
     }
     h2{
-      font-size: 30px;
+      font-size: 38px;
     }
     h3 {
-      font-size: 26px;
+      font-size: 30px;
     }
     h4 {
-      font-size: 20px;
+      font-size: 28px;
     }
     p br{
         display: none;
+    }
+    .plr-30 {
+      padding-left: 0px!important;
+      padding-right: 0px!important
+    }
+    .plr-20 {
+      padding-left: 0px!important;
+      padding-right: 0px!important
+    }
+    .plr-10 {
+      padding-left: 0px!important;
+      padding-right: 0px!important
+    }
+    .plr-15 {
+      padding-left: 0px!important;
+      padding-right: 0px!important
+    }
+    .plr-5{
+      padding-left: 0px!important;
+      padding-right: 0px!important
     }
 }
 
@@ -332,16 +354,16 @@ h4 {
        margin-bottom: 20px;
     }
     h1{
-      font-size: 32px;
+      font-size: 40px;
     }
     h2{
-      font-size: 28px;
+      font-size: 35px;
     }
     h3 {
-      font-size: 25px;
+      font-size: 28px;
     }
     h4 {
-      font-size: 20px;
+      font-size: 25px;
     }
 
 }
