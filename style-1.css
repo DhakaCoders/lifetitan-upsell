@@ -45,7 +45,7 @@ header.fl-hdr {
 
 
 .fl-shipping {
-    padding-bottom: 28px;
+    padding-bottom: 10px;
     background: #fff;
     box-sizing: border-box;
     position: relative
@@ -73,12 +73,12 @@ header.fl-hdr {
     font-family: 'SupriaSans-Regular';
     text-transform: uppercase;
     font-size: 20px;
-    margin-top: 45px;
+    margin-top: 40px;
     width: 100%
 }
 .fl-shipping .two_sec>h4 {
     font-family: 'SupriaSans-Bold';
-    margin-top: 32px;
+    margin-top: 28px;
 }
 .fl-shipping:before{
     content: "";
@@ -111,6 +111,49 @@ header.fl-hdr {
 .fl-page-bnr-cntlr h1 strong{
     color: #193e68;
 }
+
+
+.ls-sec-1{
+    margin: -50px 30px 0 30px;
+    background: url(assets/images/ls-sec-1-bg.jpg);
+    background-repeat: no-repeat!important;
+    background-position: center center!important;
+    background-size: cover!important;
+    padding: 30px 0;
+}
+.ls-sec-1-des{
+    padding-right: 20px;
+}
+.ls-sec-1-des p strong,
+.ls-sec-2-top-des p strong{
+    font-family: 'LatoBold';
+}
+.ls-sec-2{
+    padding-top: 30px;
+}
+.ls-sec-2-img{
+    text-align: center;
+}
+.ls-sec-2-btm-des{
+    margin-top: 30px;
+}
+.ls-sec-2-btm-des p{
+    font-family: 'LatoBold';
+}
+
+
+.ls-sec-3-inr h2{
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    text-align: center;
+    padding: 25px 40px 35px 40px;
+}
+
+.ls-sec-3-des{
+    padding: 10px 0;
+    text-align: center;
+}
+
 
 
 
