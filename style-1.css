@@ -53,12 +53,12 @@ header.fl-hdr {
 .fl-shipping img {
     display: inline-block;
     position: relative;
-    top: 36px;
+    top: 16px;
     width: 57px;
     height: 57px
 }
 .fl-shipping .two_sec img {
-    top: 28px;
+    top: 6px;
     width: 71px;
     height: 71px
 }
@@ -73,12 +73,12 @@ header.fl-hdr {
     font-family: 'SupriaSans-Regular';
     text-transform: uppercase;
     font-size: 20px;
-    margin-top: 40px;
+    margin-top: 28px;
     width: 100%
 }
 .fl-shipping .two_sec>h4 {
     font-family: 'SupriaSans-Bold';
-    margin-top: 28px;
+    margin-top: 14px;
 }
 .fl-shipping:before{
     content: "";
@@ -92,7 +92,7 @@ header.fl-hdr {
     left: 0;
     right: 0;
     border-radius: 50px;
-    top: 57px;
+    top: 38px;
 }
 
 .fl-page-bnr{
@@ -104,7 +104,7 @@ header.fl-hdr {
     text-transform: uppercase;
 }
 .fl-page-bnr-cntlr{
-    max-width: 620px;
+    max-width: 575px;
     width: 100%;
     text-align: center;
 }
@@ -115,19 +115,24 @@ header.fl-hdr {
 
 .ls-sec-1{
     margin: -50px 30px 0 30px;
-    background: url(assets/images/ls-sec-1-bg.jpg);
+    /*background: url(assets/images/ls-sec-1-bg.jpg);
     background-repeat: no-repeat!important;
     background-position: center center!important;
-    background-size: cover!important;
+    background-size: cover!important;*/
     padding: 30px 0;
+    background: #eef7f0;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
 }
 .ls-sec-1-des{
     padding-right: 20px;
 }
-.ls-sec-1-des p strong,
-.ls-sec-2-top-des p strong{
+/*.ls-sec-1-des p strong,
+.ls-sec-2-top-des p strong,
+.ls-sec-2-btm-des p strong{
     font-family: 'LatoBold';
-}
+}*/
 .ls-sec-2{
     padding-top: 30px;
 }
@@ -137,14 +142,12 @@ header.fl-hdr {
 .ls-sec-2-btm-des{
     margin-top: 30px;
 }
-.ls-sec-2-btm-des p{
-    font-family: 'LatoBold';
-}
+
 
 
 .ls-sec-3-inr h2{
     background-repeat: no-repeat;
-    background-position: bottom center;
+    background-position: center bottom;
     text-align: center;
     padding: 25px 40px 35px 40px;
 }
@@ -169,6 +172,9 @@ header.fl-hdr {
     font-size: 16px;
     line-height: 19px;
 }
+.fl-footer-inner{
+    padding: 0 50px;
+}
 .fl-ftr-nav ul{
     padding-bottom: 20px;
 }
@@ -187,7 +193,7 @@ header.fl-hdr {
     padding-right: 0;
 }
 .fl-ftr-nav ul li a{
-    color: inherit;
+    color: #dcdcdc;
     font-family: 'Montserrat-Medium';
     text-transform: capitalize;
 }
@@ -215,7 +221,7 @@ header.fl-hdr {
     position: absolute;
     left: 100%;
     margin-left: -1px;
-    background: #fff;
+    background: #dcdcdc;
     top: 50%;
     transform: translateY(-50%);
     -ms-transform: translateY(-50%);
