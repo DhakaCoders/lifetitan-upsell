@@ -171,22 +171,21 @@ p u a{
 .text-white{
   color: #fff;
 }
-.ctu ul{
+ul.ctu{
   list-style: none;
   padding: 0;
   margin: 0;
-  padding-left: 18px;
 }
-.ctu ul li{
-  padding: 5px 0 20px 38px;
+ul.ctu li{
+  padding: 22px 20px 25px 56px;
   position: relative;
   line-height: 28px;
 }
-.ctu ul li:before{
+ul.ctu li:before{
     content: "";
     position: absolute;
-    left: 0;
-    top: 5px;
+    left: 20px;
+    top: 22px;
     background: url(assets/images/list-icon.png);
     background-repeat: no-repeat;
     background-size: 100% auto;
