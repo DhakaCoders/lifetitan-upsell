@@ -156,7 +156,7 @@ img {
 .show-xs {
   display: none!important
 }
-p { margin: 0; margin-bottom: 30px; }
+p { margin: 0; margin-bottom: 30px; line-height: 1.4;}
 a { word-wrap: break-word } 
 strong { font-weight:normal }
 p u{
@@ -191,6 +191,33 @@ ul.ctu li:before{
     background-size: 100% auto;
     width: 24px;
     height: 24px;
+}
+ul.reset-list,
+ol.reset-list,
+ul.sub-menu,
+.fl-pagi-ctlr ul,
+.reset-slect ul,
+.recent-projects-section ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.reset-list li,
+ul.sub-menu li,
+.fl-pagi-ctlr ul li,
+.reset-slect ul li,
+.recent-projects-section ul li{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin: 0;
+}
+.reset-list li:before,
+ul.sub-menu li:before,
+.fl-pagi-ctlr ul li:before,
+.reset-slect ul li:before,
+.recent-projects-section ul:before{
+  content: none!important;
 }
 .inline-bg{
     background-size: cover!important;
