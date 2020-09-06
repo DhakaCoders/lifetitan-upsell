@@ -294,6 +294,12 @@ h4 {
     .show-sm{
         display: block!important;
     }
+    .pull-right{
+      float: initial!important;
+    }
+    .pull-left{
+      float: initial!important;
+    }
     h1{
       font-size: 35px;
     }

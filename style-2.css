@@ -156,7 +156,8 @@ li strong{
 	border-radius: 5px;
 	border: 3px solid #d67a00;
 	text-align: center;
-	width: 770px;
+	max-width: 770px;
+	width: 100%;
 	margin: auto;
 	padding: 23px 0 7px 0;
 	margin-bottom: 45px;
@@ -173,7 +174,8 @@ li strong{
 .sec-five-text-modiule{
 	position: relative;
 	text-align: center;
-	width: 835px;
+	max-width: 835px;
+	width: 100%;
 	margin: auto;
 }
 .sec-five-text-modiule span{
@@ -194,10 +196,24 @@ li strong{
     top: 0;
 }
 .sec-five-text2-modiule{
-	width: 880px;
+	max-width: 880px;
+	width: 100%;
 	margin: auto;
 	text-align: center;
 }
 .sec-five-text2-modiule > p{
 	font-size: 20px;
+}
+
+@media(max-width: 1199px){
+
+}
+@media(max-width: 991px){
+	
+}
+@media(max-width: 767px){
+	
+}
+@media(max-width: 575px){
+	
 }
