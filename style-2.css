@@ -54,7 +54,7 @@ li strong{
 .ln-sec-one-btm-title-inr > strong{
 	font-family: 'LatoBold';
 	font-size: 32px;
-	line-height: 1.2;
+	line-height: 1.3;
 	margin-bottom: 25px;
 	display: inline-block;
 
@@ -173,10 +173,11 @@ li strong{
 	color: #000;
 	font-size: 80px;
 	font-family: 'BarlowCondensed-Bold';
-
+	display: block;
 }
 .ln-sec-five-hding strong a{
 	color: #000;
+	display: block;
 }
 .sec-five-text-modiule{
 	position: relative;
@@ -190,17 +191,10 @@ li strong{
 	line-height: 28px;
 	text-align: center;
 	display: inline-block;
-	padding-left: 20px;
 	margin-bottom: 27px;
 }
-.sec-five-text-modiule i{
-	background-repeat: no-repeat;
-    background-size: 100% auto;
-    width: 21px;
-    height: 21px;
-    position: absolute;
-    left: 0;
-    top: 0;
+.sec-five-text-modiule span i{
+	padding-right: 15px;
 }
 .sec-five-text2-modiule{
 	max-width: 880px;
@@ -219,6 +213,9 @@ li strong{
 	}
 	.ln-sec-three-grid-item > p{
 		padding: 16px 7px 13px 52px;
+	}
+	.ln-sec-one-fea-img{
+		padding: 100px 10px 0 10px;
 	}
 	.ln-sec-five-hding strong{
 		font-size: 65px;
@@ -253,6 +250,9 @@ li strong{
 	.ln-sec-three-grid > ul > li{
 		width: 50%;
 	}
+	.ln-sec-four{
+		padding-top: 10px;
+	}
 	.ln-sec-three-grid-item{
 		min-height: 117px;
 	}
@@ -264,6 +264,7 @@ li strong{
 	}
 	.ln-sec-five-hding strong{
 		font-size: 50px;
+		padding-bottom: 5px;
 	}
 	.ln-sec-five .clu-text-modiule{
 		padding-top: 25px;
@@ -297,6 +298,7 @@ li strong{
 	}
 	.ln-sec-five-hding strong{
 		font-size: 40px;
+		padding-bottom: 8px;
 	}
 	.ln-sec-five .clu-text-modiule{
 		padding-top: 10px;
