@@ -12,6 +12,9 @@ p strong,
 li strong{
 	font-weight: 700;
 }
+.nu{
+	text-decoration: none!important;
+}
 .ln-sec-one-hedding{
 	position: relative;
 	background-position: center bottom!important;
@@ -51,7 +54,7 @@ li strong{
 .ln-sec-one-btm-title-inr > strong{
 	font-family: 'LatoBold';
 	font-size: 32px;
-	line-height: 1;
+	line-height: 1.2;
 	margin-bottom: 25px;
 	display: inline-block;
 
@@ -82,7 +85,7 @@ li strong{
 }
 .ln-sec-two{
 	padding-top: 15px;
-	background-repeat: repeat;
+	background-repeat: repeat!important;
 }
 .ln-sec-two-desc{
 	padding-top: 
@@ -171,6 +174,9 @@ li strong{
 	font-size: 80px;
 	font-family: 'BarlowCondensed-Bold';
 
+}
+.ln-sec-five-hding strong a{
+	color: #000;
 }
 .sec-five-text-modiule{
 	position: relative;
