@@ -3,13 +3,13 @@ Desktop---->
 1. https://prnt.sc/ucghkj---done
 	gap ta aktu besi mone hosche
 
-2. https://prnt.sc/ucgifi
+2. https://prnt.sc/ucgifi--done
 	logo ta center nai thik thak
 
 3. https://prnt.sc/uchyio----done
 	left a white border buja jasche
 
-4. https://prnt.sc/uchwpy
+4. https://prnt.sc/uchwpy---done
 	i) kono img external css a hobena, sob html a hobe
 	ii) ai section ar vitore akta div nao, setate bg ar design ta koro
 		https://prnt.sc/uci13z aikhane bg , border, shadow css diye korte hobe
