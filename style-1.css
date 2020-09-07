@@ -106,12 +106,13 @@ header.fl-hdr {
     text-transform: uppercase;
 }
 .fl-page-bnr-cntlr{
-    max-width: 575px;
+    max-width: 572px;
     width: 100%;
     text-align: center;
 }
 .fl-page-bnr-cntlr h1 strong{
     color: #193e68;
+    font-family: inherit;
 }
 
 
