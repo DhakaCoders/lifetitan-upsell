@@ -309,7 +309,7 @@ li strong{
 }
 @media(max-width: 639px){
 	.ln-sec-three-grid > ul{
-		padding: 50px!important;
+		padding: 0 50px!important;
 	}
 	.ln-sec-three-grid > ul > li{
 		width: 100%;
