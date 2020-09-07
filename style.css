@@ -316,7 +316,14 @@ header.fl-hdr {
 }
 
 
-
+.fl-shipping-progress-bar{
+  -webkit-box-shadow: 0px 6px 5px -2px rgba(174,181,177,1);
+  -moz-box-shadow: 0px 6px 5px -2px rgba(174,181,177,1);
+  box-shadow: 0px 6px 5px -2px rgba(174,181,177,1);
+  position: relative;
+  z-index: 2;
+  padding-top: 3px;
+}
 .fl-shipping {
     padding-bottom: 10px;
     background: #fff;
@@ -422,6 +429,7 @@ header.fl-hdr {
     padding: 25px 40px 35px 40px;
     display: inline-block;
     vertical-align: baseline;
+    background-size: 100% 100%!important;
 }
 
 .ls-sec-3-des{
@@ -679,7 +687,7 @@ li strong{
   max-width: 770px;
   width: 100%;
   margin: auto;
-  padding: 23px 0 7px 0;
+  padding: 23px 0 10px 0;
   margin-bottom: 45px;
 }
 .ln-sec-five-hding strong{
@@ -744,13 +752,10 @@ li strong{
       font-size: 30px;
     }
     br{
-        display: none;
+        display: none!important;
     }
   .fl-page-bnr-cntlr {
     max-width: 500px;
-  }
-  .ls-sec-3-inr h2{
-    background-size: 100% 100%;
   }
   .fl-footer-inner {
     padding: 0 30px;
@@ -762,7 +767,7 @@ li strong{
     padding: 16px 7px 13px 52px;
   }
   .ln-sec-one-fea-img{
-    padding: 100px 10px 0 10px;
+    padding: 100px 10px 20px 10px;
   }
   .ln-sec-five-hding strong{
     font-size: 65px;
@@ -770,6 +775,10 @@ li strong{
   .ln-sec-three-grid-item > i {
     left: 17px;
     top: 12px;
+  }
+  .ls-sec-3-inr h2{
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
 @media(max-width: 991px){
@@ -840,7 +849,7 @@ li strong{
         margin-top: 20px;
     }
     .ls-sec-3-inr h2 {
-        padding: 45px 30px 35px 30px;
+        padding: 45px 40px 35px 40px;
     }
     .fl-footer-wrap{
         padding: 30px 0 10px;
@@ -868,7 +877,7 @@ li strong{
       font-size: 28px;
     }
     .ln-sec-one-fea-img{
-      padding: 10px 0 0 0;
+      padding: 10px 0 30px 0;
     }
     .ln-sec-one-desc > h3{
       margin-bottom: 21px;
@@ -908,6 +917,10 @@ li strong{
     .ln-sec-one-fea-img{
       margin-top: 0;
     }
+    .fl-ftr-des{
+      padding-left: 0;
+      padding-right: 0;
+    }
 }
 
 
@@ -929,7 +942,7 @@ li strong{
       font-size: 35px;
     }
     h3 {
-      font-size: 28px;
+      font-size: 29px;
     }
     h4 {
       font-size: 25px;
