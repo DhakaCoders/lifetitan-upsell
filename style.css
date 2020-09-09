@@ -1055,6 +1055,25 @@ li strong{
       margin-left: auto;
       margin-right: auto;
     }
+    .fl-page-bnr{
+      position: relative;
+    }
+    .bnr-overlay-xs{
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background: rgba(0,0,0,.22);
+      z-index: 1;
+    }
+    .fl-page-bnr-cntlr{
+      position: relative;
+      z-index: 2;
+    }
+    .ls-sec-1-img{
+      padding-top: 50px;
+    }
 }
 @media(max-width: 479px){
     .fl-page-bnr-cntlr h1{
