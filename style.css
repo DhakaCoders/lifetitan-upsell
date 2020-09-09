@@ -1053,6 +1053,12 @@ li strong{
     .entry-nmbr h3{
       font-size: 23px;
     }
+    .fl-page-bnr-cntlr h1{
+      font-size: 34px;
+      max-width: 330px;
+      margin-left: auto;
+      margin-right: auto;
+    }
 }
 @media(max-width: 479px){
     .fl-page-bnr-cntlr h1{
@@ -1064,6 +1070,9 @@ li strong{
     .ln-sec-three-grid > ul{
       padding: 0!important;
     }
+    .fl-page-bnr-cntlr h1{
+      font-size: 30px;
+    }
 }
 @media(max-width: 359px){
     .fl-shipping h4 {
@@ -1074,5 +1083,8 @@ li strong{
     }
     .ls-sec-3-inr h2 {
         font-size: 28px;
+    }
+    .fl-page-bnr-cntlr h1{
+      font-size: 27px;
     }
 }
