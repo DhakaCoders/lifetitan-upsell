@@ -1073,6 +1073,9 @@ li strong{
     .ls-sec-1-img{
       padding-top: 50px;
     }
+    .fl-page-bnr-cntlr{
+      text-align: left;
+    }
 }
 @media(max-width: 479px){
     .fl-page-bnr-cntlr h1{
