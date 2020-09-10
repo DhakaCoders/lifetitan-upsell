@@ -1050,9 +1050,8 @@ li strong{
       font-size: 23px;
     }
     .fl-page-bnr-cntlr h1{
-      font-size: 34px;
-      max-width: 330px;
-      margin-left: auto;
+      font-size: 30px;
+      max-width: 286px;
       margin-right: auto;
     }
     .fl-page-bnr{
@@ -1088,6 +1087,12 @@ li strong{
     .fl-page-bnr-cntlr h1{
       font-size: 30px;
     }
+    .fl-page-bnr{
+      padding-top: 90px;
+    }
+    .fl-page-bnr-cntlr h1 {
+      font-size: 26px;
+    }
 }
 @media(max-width: 359px){
     .fl-shipping h4 {
@@ -1101,5 +1106,8 @@ li strong{
     }
     .fl-page-bnr-cntlr h1{
       font-size: 27px;
+    }
+    .fl-page-bnr-cntlr h1 {
+      font-size: 24px;
     }
 }
