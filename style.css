@@ -1092,6 +1092,7 @@ li strong{
     }
     .fl-page-bnr-cntlr h1 {
       font-size: 26px;
+      max-width: 249px;
     }
 }
 @media(max-width: 359px){
